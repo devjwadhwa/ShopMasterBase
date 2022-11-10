@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
       //Pass the ID's of Different destinations
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_favourites, R.id.navigation_profile, R.id.navigation_search )
+                R.id.navigation_home, R.id.navigation_menu, R.id.navigation_back)
                 .build();
         //Initialize NavController.
         NavController navController = Navigation.findNavController(this, R.id.navHostFragment);
