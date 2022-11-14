@@ -6,16 +6,16 @@
     app:startDestination="@+id/navigation_home">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.bottomnavigationbar.home"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
-
-    <fragment
         android:id="@+id/navigation_back"
         android:name="com.example.bottomnavigationbar.back"
         android:label="@string/title_back"
         tools:layout="@layout/fragment_back" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.bottomnavigationbar.home"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_menu"
